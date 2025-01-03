@@ -31,19 +31,33 @@ A Django-based API project that provides functionality for managing users, proje
    python -m venv venv
    source venv/bin/activate  
    # On Windows: venv\Scripts\activate
+   
 3. Install dependencies:
    ```bash
    pip install -r requirements.txt
+   
 4. Run migrations:
    ```bash
    python manage.py migrate
+   
 5. Create a superuser:
    ```bash
    python manage.py createsuperuser
+   
 6. Start the development server
    ```bash
    python manage.py runserver
-
+   
+7. Add your app in installed app settings
+   ```bash
+   INSTALLED_APPS = [
+    'management',
+    'rest_framework',
+    'rest_framework_simplejwt',]
+8. Don't forgot to add in setting the abstract user
+   ```bash
+   AUTH_USER_MODEL = 'management.User'
+   
 ## Endpoints
 - POST api/users/register/ - Register a new user.
 - POST api/users/login/ - Login and retrieve tokens.
