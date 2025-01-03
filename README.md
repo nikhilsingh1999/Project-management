@@ -1,4 +1,4 @@
-# Project-management - Django Project API
+# Project-management - Django backend project API
 
 ## Overview
 A Django-based API project that provides functionality for managing users, projects, tasks, and comments, along with JWT-based authentication.
