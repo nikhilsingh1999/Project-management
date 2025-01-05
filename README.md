@@ -64,7 +64,8 @@ A Django-based API project that provides functionality for managing users, proje
 - POST api/users/login/ - Login and retrieve tokens.
 - GET api/projects/ - List all projects.
 
-## For detailed API documentation, see API Documentation.
+## For detailed API documentation, see [API Documentation](https://www.postman.com/docking-module-operator-74906578/my-workspace/collection/sgf7ktt/project-management-application?action=share&creator=40727933)
+
 
 
 ## Deployment
